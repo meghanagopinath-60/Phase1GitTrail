@@ -1,0 +1,28 @@
+.display p{
+    text-align:center;
+    font-size:large;
+    font-weight: bold;
+}
+
+.display input{
+    text-align:center;
+    font-size: medium;
+    margin-left: 5%;
+}
+
+#sub{
+    margin-left: 50%;
+}
+
+#msg {
+    color:red;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+
+#go{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}

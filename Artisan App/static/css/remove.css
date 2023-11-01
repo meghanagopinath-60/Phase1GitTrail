@@ -1,0 +1,28 @@
+table {
+	border-width: 10px;
+}
+
+#itemImage {
+		height:200px;
+		width:200px;
+		border-radius:10px;
+}
+
+.product span{
+	color: white;
+	text-decoration: none;
+	font-size: medium;
+}
+
+h1{
+	color: white;
+}
+
+table {
+	border-spacing: 20px;
+	
+}
+
+.product{
+	margin: 10%;
+}

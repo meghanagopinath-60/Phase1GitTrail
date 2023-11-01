@@ -1,0 +1,75 @@
+#tableItems {
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#itemImage {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+}
+
+#itemName {
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 100px;	
+	float: left;
+}
+
+#itemName a{
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+#itemPrice {
+	margin-left: 20px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 100px;
+	font-size: xx-large;
+	display: inline-block;
+}
+
+#image {
+	height: 100px;
+	width: 100px;
+	border-radius: 10px;
+}
+
+#seperator {
+	margin: 0px;
+	max-width: 400px;
+	height:5px;
+	background-color: black;
+	border: none;
+}
+
+#total {
+	padding-left: 280px;
+}
+
+#itemNameTag {
+	font-weight: bold;
+	font-size: x-large;
+}
+
+#subtotal {
+	font-weight: bold;
+	font-size:x-large;
+}
+
+#checkout{
+	font-size:large;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}

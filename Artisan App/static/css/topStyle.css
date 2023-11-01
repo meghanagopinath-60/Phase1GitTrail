@@ -1,0 +1,116 @@
+body{
+	margin:0;
+	padding:0;
+	background:url('https://wallpapercave.com/wp/wp4312259.jpg');
+	background-size:cover;
+	background-position: justify;
+	background-repeat: no-repeat;
+	color:white;
+}
+
+#logo {
+	height:10%;
+	width: 10%;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	float: left;
+}
+
+#title {
+	display: inline-block;
+	width: 100%;
+	background-color: rgba(62, 89, 207, 0.888);
+}
+
+#searchBox {
+	height: 30px;
+	width: 600px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	float: left;
+	font-size: 1.5em;
+	border: 5px solid brown ;
+	border-radius: 10px;
+}
+
+#searchButton {
+	height: 30px;
+	margin-top: 25px;
+	padding:5px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	float: left;
+}
+
+.dropbtn {
+	background-color: black;
+	color: white;
+	padding: 25px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	
+}
+
+.dropdown {
+	position: relative;
+	float: left;
+}
+
+.dropdown-content  {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+	font-size: 14px;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: gray;
+}
+
+#signInButton a{
+	font-size: 20px;
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	text-decoration: none;
+}
+
+.link {
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+	text-decoration:none;
+}
+
+#cartIcon {
+	height: 30px;
+	width: 30px;
+}
+

@@ -1,0 +1,96 @@
+.body{
+	margin:0;
+	padding:0;
+}
+
+#itemImage {
+	height: 200px;
+	width: 150px;
+}
+
+.display {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.display > ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width:60px;
+	text-decoration: none;
+	color: white;
+}
+
+.display li{
+	display: inline-block;
+	color:white;
+  	padding: 8px 16px;
+	color:rgb(255, 255, 255);
+}
+
+.display li a:hover {
+	background-color: #555;
+	border-radius: 8px;
+	padding:7px;	
+}
+
+.display li a:link {
+	color: aqua;
+  }
+
+table {
+	border-spacing: 40px;
+	
+}
+
+#productName {
+	text-align: center;
+	font-weight: bold;
+	font-size: large;
+}
+
+#productPrice {
+	text-align: center;
+	background-color: white;
+	color:black;
+	padding:6px;
+}
+
+#productPrice :hover{
+	background-color: black;
+	color:white;
+}
+
+#productImage img{ 
+	height:200px;
+	width:200px;
+	border-radius:10px;
+}
+
+#productImage img :hover{ 
+	height:250px;
+	width:250px;
+	border-radius:10px;
+}
+
+.displayCategory ul li {
+	font-size: 20px;
+	display: inline-block;
+	color:aqua;
+  	padding: 8px 16px;
+	list-style: none;
+	margin:0 20px;
+}
+
+.displayCategory ul li a:hover {
+	background-color: white;
+	color:black ;
+}
+
+.displayCategory ul li a{
+	color:white;
+}
+

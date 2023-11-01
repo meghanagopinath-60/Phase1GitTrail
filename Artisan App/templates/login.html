@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>	First flask app </title>
+<link rel="stylesheet" href={{ url_for('static', filename='css/editProfile.css') }} />
+<link rel="stylesheet" href={{ url_for('static', filename='css/topStyle.css') }} />
+</head>
+<body>
+<p id="'msg"> {{error}} </p>
+<br><br>
+<center><h1>ARTISANAL E-COMMERCE  APP</h1></center>
+<div class="display" style="border: 5px solid navy; display:block;">
+<form action="/login" method="POST">
+	<p>Email: <input type="text" name="email"></p>
+	<p>Password: <input type="password" name="password"></p>
+	<center><p><input  type="submit"></p><br>
+		<br>
+
+	<a id="go" href="/registerationForm">Register here</a></center>
+</form>
+</div>
+</body>
+</html>

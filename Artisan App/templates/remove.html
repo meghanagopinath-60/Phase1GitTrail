@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Remove</title>
+<link rel="stylesheet" href={{url_for('static', filename='css/remove.css')}}>
+<link rel="stylesheet" href={{ url_for('static', filename='css/topStyle.css') }} />
+</link>
+</head>
+<body>
+	<center><h1>Click the product to remove</h1></center>
+<table class="product">
+	<span>{% for i in range(6) %}</span>
+	<tr id="product">
+		{% for row in data %}
+		<td id="productImage">
+			<a href="/removeItem?productId={{row[0]}}">
+			{% if i == 4 %}
+				<img src={{ url_for('static', filename='uploads/' + row[i]) }} id="itemImage" />
+			{% else %}
+				<span>{{row[i]}}</span>
+			{% endif %}
+			</a>
+		</td>
+		{% endfor %}
+	</tr>
+	{% endfor %}
+
+</table>
+</body>
+</html>
